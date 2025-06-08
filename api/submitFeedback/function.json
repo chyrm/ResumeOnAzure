@@ -20,7 +20,7 @@
       "direction": "out",
       "name": "outputTable",
       "tableName": "ResumeFeedback",
-      "connection": "MY_STORAGE_CONNECTION_STRING"
+      "connection": "AZURE_STORAGE_CONNECTION_STRING"
     }
   ]
 }
