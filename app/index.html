@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Experienced Web Developer | Cloud Enthusiast</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with expertise in modern JavaScript frameworks and cloud platforms like Azure. I enjoy building scalable and efficient applications.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Senior Web Developer</h3>
+                <p>Tech Solutions Inc. | 2020 - Present</p>
+                <ul>
+                    <li>Developed and maintained full-stack web applications using Node.js and React.</li>
+                    <li>Implemented Azure Functions for serverless API endpoints.</li>
+                    <li>Managed Azure DevOps pipelines for CI/CD.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Junior Software Engineer</h3>
+                <p>Innovate Corp. | 2018 - 2020</p>
+                <ul>
+                    <li>Contributed to front-end development using HTML, CSS, and JavaScript.</li>
+                    <li>Assisted in database design and optimization.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Vue.js</li>
+                <li>Node.js, Express.js</li>
+                <li>Azure Functions, Azure Static Web Apps</li>
+                <li>Azure DevOps, Git</li>
+                <li>SQL, NoSQL (Azure Table Storage)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: john.doe@example.com | LinkedIn: /in/johndoe</p>
+        </section>
+
+        <section id="feedback">
+            <h2>Provide Feedback</h2>
+            <form id="feedbackForm">
+                <p>Was this resume clear and easy to understand?</p>
+                <label>
+                    <input type="radio" name="isClear" value="true" required> Yes
+                </label>
+                <label>
+                    <input type="radio" name="isClear" value="false" required> No
+                </label>
+
+                <p>Any suggestions for improvement? (Optional)</p>
+                <textarea id="suggestions" rows="4" placeholder="e.g., 'Add more project examples.'"></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+            <p id="feedbackMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
