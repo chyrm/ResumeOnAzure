@@ -30,6 +30,6 @@
     "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
   },
   "platform": {
-    "apiRuntime": "node:22.16.0"  
+    "apiRuntime": "node:22"  
   }
 }
